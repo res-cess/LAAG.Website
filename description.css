@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #eaeaea;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.253), rgba(255, 255, 255, 0.213));
+    backdrop-filter: blur(2px);
+    height: 15%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .leftsection {
+    display: flex;
+    align-items: center;
+  }
+  
+  h3 {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #000000;
+    text-shadow: 0.1px 0.1px 0.1px #000000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .logo {
+    width: 70px;
+  }
+  
+  ul {
+    display: flex;
+    column-gap: 50px;
+  
+  }
+  
+  a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+  
+    transition: all ease 0.5s;
+  }
+  
+  a:hover {
+    border-bottom: 3px solid rgb(230, 230, 230);
+    color: rgb(227, 227, 227);
+  }
+  
+
+  .itinerarybutton .itinerary{
+    width: 115px;
+    height: 40px;
+    color: #dbdbdb;
+    background-color:#073300 ;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    right: 20px;
+    top: 130px;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.toppart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -130%);
+  height: auto  ;
+  width: 800px;
+}
+
+.contents{
+  color: azure;
+  text-shadow: 10px 10px 13px rgba(0, 2, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+
+.titleheader {
+  text-align: center;
+}
+
+.sataas{
+ font-size: 25px;
+ text-decoration: underline;
+ font-weight: 200;
+}
+
+.almostmedul{
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.desc{
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  position: absolute;
+  top: 145px;
+}
+
+.todo  {
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  top: 275px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-style: italic;
+  
+}
+
+.googlemapnav{
+  position: relative;
+  top: 570px;
+  left: 450px;
+}
+
+.seegooglemaps{
+  color: azure;
+  text-shadow: 10px 10px 13px rgba(0, 2, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.pinicon{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+
+
+.contactnumbernav{
+  position: relative;
+  top: 555px;
+  left: 900px;
+}
+
+.contactnumber{
+  color: azure;
+  text-shadow: 10px 10px 13px rgba(0, 2, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.phoneicon{
+  position: absolute;
+  top: 20px;
+  left: -90px;
+}
+
+.number{
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  color: azure;
+  text-shadow: 10px 10px 13px rgba(0, 2, 5, 0.678);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.gallery{
+  position: relative;
+  top: 750px;
+  left: 330px;
+  margin-bottom: 100px;
+}
+
+.galleryname{
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 200;
+  top: 600px;
+  left: 710px;
+  position: relative;
+  color: azure;
+  text-shadow: 10px 10px 13px rgba(0, 2, 5, 0.678);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+
+}
+
+.photo1{
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 25%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.photo2{
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  width: 29%;
+  height: auto;
+  border-radius: 20px;
+  border-color: black;
+  margin-bottom: 100px;
+}
+
+

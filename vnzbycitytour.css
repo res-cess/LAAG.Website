@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+      color: #fff;
+      font-size: 75px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+    top: 180px;
+    transform: translateX(38%) translateY(-50%);
+  }
+  
+  h2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+      color: #fff;
+      font-size: 50px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+    top: 260px;
+    transform: translateX(55%) translateY(-50%);
+  }
+  
+  
+  body{
+      background-color: #FFEBB8;
+  }
+  
+  
+  .container {
+    background-color: #003c4f; /* light gray background */
+    border-radius: 50px; /* rounded edges */
+    padding: 20px; /* add some padding */
+    width: 900px; /* set the width */
+    height: 330px;
+    position: absolute; /* position the container absolutely */
+    top: 63%; /* move it 50% from the top */
+    left: 50%; /* move it 50% from the left */
+    transform: translate(-50%, -50%); /* adjust the position to center it */
+  }
+  
+  p {
+    font-size: 40px; /* default font size for paragraphs */
+    font-family: "Poppins", sans-serif;
+    color:#FFFFFF; /* optional */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    top: 0px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  h6 ul {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    column-gap: 50px; /* adjust the gap between list items */
+    top: 400px;
+    left: 570px;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  @media (max-width: 768px) {
+    footer .left-button, footer .right-button {
+      font-size: 12px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    footer .left-button, footer .right-button {
+      font-size: 10px;
+      padding: 2px 5px;
+      cursor: pointer;
+    }
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.253), rgba(255, 255, 255, 0.213));
+  backdrop-filter: blur(2px);
+  height: 15%;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 50px;
+  list-style: none;
+}
+
+.leftsection {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans serif;
+  list-style: none;
+}
+
+
+h3 {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: black;
+  text-shadow: 0.1px 0.1px 0.1px #fff;
+}
+
+.logo {
+  width: 70px;
+}
+
+ul {
+  display: flex;
+  column-gap: 50px;
+  list-style: none;
+
+}
+
+a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+  border-bottom: 3px solid transparent;
+
+  transition: all ease 0.5s;
+}
+
+a:hover {
+  border-bottom: 3px solid rgb(230, 230, 230);
+  color: rgb(227, 227, 227);
+}
+
+.button-1 {
+    width: 100px;
+    height: 50px;
+    background-color: #003c4f; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 100px;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    top: 650px;
+    font-weight: 700;
+    }
+    
+    .button-1-container button:hover {
+      background-color: #1b0093; /* Darker orange on hover */
+      color: white;
+    }
+
+
+.button-2 {
+    width: 100px;
+    height: 50px;
+    background-color: #003c4f; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 1350px;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    top: 600px;
+    font-weight: 700;
+  }
+  
+  .button-2-container button:hover {
+    background-color: #00303f; 
+  }
